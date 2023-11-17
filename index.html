@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Фавикон -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon//favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon//favicon-16x16.png"/>
+        <link rel="manifest" href="favicon//site.webmanifest" />
+        <link rel="mask-icon" href="favicon//safari-pinned-tab.svg" color="#5bbad5"/>
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>Шифр Цезаря</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapp"></div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__wrapp">
+                    <div class="cipher">
+                        <h1 class="cipher__title">Шифр Цезаря!</h1>
+                        <div class="cipher__img">
+                            <img src="img/ces.jpg" alt="Цезарь" />
+                        </div>
+                        <div class="cipher__desc">
+                            <textarea name="" id="" class="cipher__text" placeholder="Введите текст на русском"></textarea>
+                            <input type="number" / min="0" placeholder="Сдвиг" class="num">
+                        </div>
+                        <div class="chipher__btn">
+                            <button class="chipher__btn-encrypt">Зашифровать</button>
+                            <button class="chipher__btn-decrypt">Расшифровать</button>
+                            <button class="chipher__btn-remove">Очистить</button>
+                        </div>
+                    </div>
+                    <div class="encrypted">
+                        <h2 class="encrypted__title"></h2>
+                        <textarea name="" id="" cols="30" rows="10" class="encrypted__text"></textarea>
+                    </div>
+                    <!--<audio src="jeff-van-dyck-rome-hq.mp3"  type="audio/wav" controls loop></audio>-->
+                    <!-- <div class="audio__block">
+                        <audio src="jeff-van-dyck-rome-hq.mp3"  type="audio/wav" controls loop></audio>
+                        <audio src="jeff-van-dyck-rome-hq.mp3"  type="audio/wav" controls loop></audio>
+                        <audio src="jeff-van-dyck-rome-hq.mp3"  type="audio/wav" controls loop></audio>
+                    </div> -->
+                </div>
+            </div>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
